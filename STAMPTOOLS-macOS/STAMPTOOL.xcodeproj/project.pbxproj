@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		FB33FFD9135BDB8D005FC9C6 /* GlyphDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = FB33FFD8135BDB8D005FC9C6 /* GlyphDrawing.m */; };
+		FB5F950C0FBC02E5000D3C79 /* StampController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F95080FBC02E5000D3C79 /* StampController.m */; };
+		FB5F950D0FBC02E5000D3C79 /* StampImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB5F950A0FBC02E5000D3C79 /* StampImageView.m */; };
+		FB5F953B0FBC058E000D3C79 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB5F95390FBC058E000D3C79 /* MainMenu.xib */; };
+		FB7319F1162D36D100DD9C4F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7319F0162D36D100DD9C4F /* AppKit.framework */; };
+		FB7319F3162D36D800DD9C4F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7319F2162D36D800DD9C4F /* Cocoa.framework */; };
+		FB7319F5162D36E200DD9C4F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7319F4162D36E200DD9C4F /* CoreFoundation.framework */; };
+		FB7319F7162D36EA00DD9C4F /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7319F6162D36EA00DD9C4F /* Quartz.framework */; };
+		FB7319F9162D36F100DD9C4F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB7319F8162D36F100DD9C4F /* QuartzCore.framework */; };
+		FB7319FB162D3EBB00DD9C4F /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = FB7319FA162D3EBB00DD9C4F /* icon.iconset */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* STAMPTOOLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STAMPTOOLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB2C6D2F13334448005D9AA0 /* Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.h; sourceTree = "<group>"; };
+		FB33FFD8135BDB8D005FC9C6 /* GlyphDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlyphDrawing.m; sourceTree = "<group>"; };
+		FB33FFDA135BDC06005FC9C6 /* GlyphDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlyphDrawing.h; sourceTree = "<group>"; };
+		FB5F95070FBC02E5000D3C79 /* StampController.h */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.c.h; path = StampController.h; sourceTree = "<group>"; };
+		FB5F95080FBC02E5000D3C79 /* StampController.m */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.c.objc; path = StampController.m; sourceTree = "<group>"; };
+		FB5F95090FBC02E5000D3C79 /* StampImageView.h */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.c.h; path = StampImageView.h; sourceTree = "<group>"; };
+		FB5F950A0FBC02E5000D3C79 /* StampImageView.m */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.c.objc; path = StampImageView.m; sourceTree = "<group>"; };
+		FB5F953A0FBC058E000D3C79 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Japanese; path = Japanese.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB5F96480FBC07FF000D3C79 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FB70321614F45E3F0008E83C /* STAMPTOOLS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = STAMPTOOLS.entitlements; sourceTree = "<group>"; };
+		FB7319F0162D36D100DD9C4F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FB7319F2162D36D800DD9C4F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FB7319F4162D36E200DD9C4F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		FB7319F6162D36EA00DD9C4F /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		FB7319F8162D36F100DD9C4F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB7319FA162D3EBB00DD9C4F /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+		FBC3C9F7135BF5A200B88E75 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
+		FBC3C9F8135BF5A200B88E75 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FBC3C9F9135BF5A200B88E75 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		FBC3C9FA135BF5A200B88E75 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework; sourceTree = DEVELOPER_DIR; };
+		FBC3C9FB135BF5A200B88E75 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = SDKs/MacOSX10.6.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB7319F9162D36F100DD9C4F /* QuartzCore.framework in Frameworks */,
+				FB7319F7162D36EA00DD9C4F /* Quartz.framework in Frameworks */,
+				FB7319F5162D36E200DD9C4F /* CoreFoundation.framework in Frameworks */,
+				FB7319F3162D36D800DD9C4F /* Cocoa.framework in Frameworks */,
+				FB7319F1162D36D100DD9C4F /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FB33FFDA135BDC06005FC9C6 /* GlyphDrawing.h */,
+				FB33FFD8135BDB8D005FC9C6 /* GlyphDrawing.m */,
+				FB5F95070FBC02E5000D3C79 /* StampController.h */,
+				FB5F95080FBC02E5000D3C79 /* StampController.m */,
+				FB5F95090FBC02E5000D3C79 /* StampImageView.h */,
+				FB5F950A0FBC02E5000D3C79 /* StampImageView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* STAMPTOOLS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* STAMPIT */ = {
+			isa = PBXGroup;
+			children = (
+				FB7319F8162D36F100DD9C4F /* QuartzCore.framework */,
+				FB7319F6162D36EA00DD9C4F /* Quartz.framework */,
+				FB7319F4162D36E200DD9C4F /* CoreFoundation.framework */,
+				FB7319F2162D36D800DD9C4F /* Cocoa.framework */,
+				FB7319F0162D36D100DD9C4F /* AppKit.framework */,
+				FB70321614F45E3F0008E83C /* STAMPTOOLS.entitlements */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = STAMPIT;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FB2C6D2F13334448005D9AA0 /* Prefix.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB7319FA162D3EBB00DD9C4F /* icon.iconset */,
+				FB5F95390FBC058E000D3C79 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3C9F7135BF5A200B88E75 /* AppKit.framework */,
+				FBC3C9F8135BF5A200B88E75 /* Cocoa.framework */,
+				FBC3C9F9135BF5A200B88E75 /* CoreFoundation.framework */,
+				FBC3C9FA135BF5A200B88E75 /* Quartz.framework */,
+				FBC3C9FB135BF5A200B88E75 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* STAMPTOOL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "STAMPTOOL" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STAMPTOOL;
+			productInstallPath = "$(HOME)/Applications";
+			productName = STAMPIT;
+			productReference = 8D1107320486CEB800E47090 /* STAMPTOOLS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					8D1107260486CEB800E47090 = {
+						DevelopmentTeam = F3EPXJ55Q2;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "STAMPTOOL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* STAMPIT */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* STAMPTOOL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5F953B0FBC058E000D3C79 /* MainMenu.xib in Resources */,
+				FB7319FB162D3EBB00DD9C4F /* icon.iconset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				FB5F950C0FBC02E5000D3C79 /* StampController.m in Sources */,
+				FB5F950D0FBC02E5000D3C79 /* StampImageView.m in Sources */,
+				FB33FFD9135BDB8D005FC9C6 /* GlyphDrawing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB5F95390FBC058E000D3C79 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB5F953A0FBC058E000D3C79 /* Japanese */,
+				FB5F96480FBC07FF000D3C79 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = STAMPTOOLS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.h;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = STAMPTOOLS;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = STAMPTOOLS.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.h;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = /Applications;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = STAMPTOOLS;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "STAMPTOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "STAMPTOOL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
