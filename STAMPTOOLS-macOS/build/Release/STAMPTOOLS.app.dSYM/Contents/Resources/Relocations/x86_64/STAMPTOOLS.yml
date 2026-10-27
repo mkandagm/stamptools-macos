@@ -1,0 +1,59 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/mkanda/Downloads/stamptools-macos-master/STAMPTOOLS-macOS/build/Release/STAMPTOOLS.app/Contents/MacOS/STAMPTOOLS'
+relocations:
+  - { offset: 0x748FB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000E00, symSize: 0xA }
+  - { offset: 0x74923, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100000E00, symSize: 0xA }
+  - { offset: 0x749CE, size: 0x8, addend: 0x0, symName: '-[StampController init]', symObjAddr: 0x0, symBinAddr: 0x100000E0A, symSize: 0x9C }
+  - { offset: 0x74C9E, size: 0x8, addend: 0x0, symName: '-[StampController init]', symObjAddr: 0x0, symBinAddr: 0x100000E0A, symSize: 0x9C }
+  - { offset: 0x74CD5, size: 0x8, addend: 0x0, symName: '-[StampController drawerWillResizeContents:toSize:]', symObjAddr: 0x9C, symBinAddr: 0x100000EA6, symSize: 0x16 }
+  - { offset: 0x74D30, size: 0x8, addend: 0x0, symName: '-[StampController drawerShouldOpen:]', symObjAddr: 0xB2, symBinAddr: 0x100000EBC, symSize: 0xBC }
+  - { offset: 0x74DDE, size: 0x8, addend: 0x0, symName: '-[StampController drawerWillOpen:]', symObjAddr: 0x16E, symBinAddr: 0x100000F78, symSize: 0x26 }
+  - { offset: 0x74E39, size: 0x8, addend: 0x0, symName: '-[StampController drawerDidOpen:]', symObjAddr: 0x194, symBinAddr: 0x100000F9E, symSize: 0x6 }
+  - { offset: 0x74E74, size: 0x8, addend: 0x0, symName: '-[StampController drawerWillClose:]', symObjAddr: 0x19A, symBinAddr: 0x100000FA4, symSize: 0x26 }
+  - { offset: 0x74ECF, size: 0x8, addend: 0x0, symName: '-[StampController drawerDidClose:]', symObjAddr: 0x1C0, symBinAddr: 0x100000FCA, symSize: 0x6 }
+  - { offset: 0x74F0A, size: 0x8, addend: 0x0, symName: '-[StampController drawerShouldClose:]', symObjAddr: 0x1C6, symBinAddr: 0x100000FD0, symSize: 0xB9 }
+  - { offset: 0x74FB8, size: 0x8, addend: 0x0, symName: '-[StampController toogledrawer:]', symObjAddr: 0x27F, symBinAddr: 0x100001089, symSize: 0x16 }
+  - { offset: 0x7500E, size: 0x8, addend: 0x0, symName: '-[StampController OnTimer:]', symObjAddr: 0x295, symBinAddr: 0x10000109F, symSize: 0x14 }
+  - { offset: 0x75066, size: 0x8, addend: 0x0, symName: '-[StampController mouseDown:]', symObjAddr: 0x2A9, symBinAddr: 0x1000010B3, symSize: 0x14A }
+  - { offset: 0x7517C, size: 0x8, addend: 0x0, symName: '-[StampController applicationWillTerminate:]', symObjAddr: 0x3F3, symBinAddr: 0x1000011FD, symSize: 0x242 }
+  - { offset: 0x75400, size: 0x8, addend: 0x0, symName: '-[StampController applicationDidFinishLaunching:]', symObjAddr: 0x635, symBinAddr: 0x10000143F, symSize: 0x5A0 }
+  - { offset: 0x758E4, size: 0x8, addend: 0x0, symName: '-[StampController changeStampRotationField:]', symObjAddr: 0xBD5, symBinAddr: 0x1000019DF, symSize: 0x4C }
+  - { offset: 0x7594E, size: 0x8, addend: 0x0, symName: '-[StampController changeStampRotation:]', symObjAddr: 0xC21, symBinAddr: 0x100001A2B, symSize: 0x4C }
+  - { offset: 0x759B8, size: 0x8, addend: 0x0, symName: '-[StampController changeStampStrTOP:]', symObjAddr: 0xC6D, symBinAddr: 0x100001A77, symSize: 0x3A }
+  - { offset: 0x75A23, size: 0x8, addend: 0x0, symName: '-[StampController changeStampStrBOT:]', symObjAddr: 0xCA7, symBinAddr: 0x100001AB1, symSize: 0x3A }
+  - { offset: 0x75A8E, size: 0x8, addend: 0x0, symName: '-[StampController changeThicness:]', symObjAddr: 0xCE1, symBinAddr: 0x100001AEB, symSize: 0x3B }
+  - { offset: 0x75AFB, size: 0x8, addend: 0x0, symName: '-[StampController changeStampSize:]', symObjAddr: 0xD1C, symBinAddr: 0x100001B26, symSize: 0x43 }
+  - { offset: 0x75B68, size: 0x8, addend: 0x0, symName: '-[StampController changeStampRing:]', symObjAddr: 0xD5F, symBinAddr: 0x100001B69, symSize: 0x3E }
+  - { offset: 0x75BD5, size: 0x8, addend: 0x0, symName: '-[StampController changeStampDate:]', symObjAddr: 0xD9D, symBinAddr: 0x100001BA7, symSize: 0x58 }
+  - { offset: 0x75C4E, size: 0x8, addend: 0x0, symName: '-[StampController changeStampDatePicker:]', symObjAddr: 0xDF5, symBinAddr: 0x100001BFF, symSize: 0x14 }
+  - { offset: 0x75CA8, size: 0x8, addend: 0x0, symName: '-[StampController changeStampColor:]', symObjAddr: 0xE09, symBinAddr: 0x100001C13, symSize: 0x3B }
+  - { offset: 0x75D08, size: 0x8, addend: 0x0, symName: '-[StampController changeFont:]', symObjAddr: 0xE44, symBinAddr: 0x100001C4E, symSize: 0xAA }
+  - { offset: 0x75DE6, size: 0x8, addend: 0x0, symName: '-[StampController changeDateFormat:]', symObjAddr: 0xEEE, symBinAddr: 0x100001CF8, symSize: 0x3B }
+  - { offset: 0x75E46, size: 0x8, addend: 0x0, symName: '-[StampController changeStampFont:]', symObjAddr: 0xF29, symBinAddr: 0x100001D33, symSize: 0x140 }
+  - { offset: 0x75FAF, size: 0x8, addend: 0x0, symName: '-[StampController createPDFContext:path:]', symObjAddr: 0x1069, symBinAddr: 0x100001E73, symSize: 0x40 }
+  - { offset: 0x760E9, size: 0x8, addend: 0x0, symName: '-[StampController drawStringRect:fontname:fontsize:rect:context:]', symObjAddr: 0x10A9, symBinAddr: 0x100001EB3, symSize: 0x2A6 }
+  - { offset: 0x766AF, size: 0x8, addend: 0x0, symName: '-[StampController createStampImage]', symObjAddr: 0x134F, symBinAddr: 0x100002159, symSize: 0x5FF }
+  - { offset: 0x76E1E, size: 0x8, addend: 0x0, symName: '-[StampController copyIntoClipboard:]', symObjAddr: 0x194E, symBinAddr: 0x100002758, symSize: 0x11F }
+  - { offset: 0x76F7B, size: 0x8, addend: 0x0, symName: '-[StampController copyToClipboard:]', symObjAddr: 0x1A6D, symBinAddr: 0x100002877, symSize: 0x84 }
+  - { offset: 0x770FB, size: 0x8, addend: 0x0, symName: '-[StampImageView draggingSourceOperationMaskForLocal:]', symObjAddr: 0x0, symBinAddr: 0x1000028FB, symSize: 0xD }
+  - { offset: 0x7712D, size: 0x8, addend: 0x0, symName: '-[StampImageView draggingSourceOperationMaskForLocal:]', symObjAddr: 0x0, symBinAddr: 0x1000028FB, symSize: 0xD }
+  - { offset: 0x7716E, size: 0x8, addend: 0x0, symName: '-[StampImageView draggingEntered:]', symObjAddr: 0xD, symBinAddr: 0x100002908, symSize: 0x52 }
+  - { offset: 0x7720A, size: 0x8, addend: 0x0, symName: '-[StampImageView performDragOperation:]', symObjAddr: 0x5F, symBinAddr: 0x10000295A, symSize: 0x8 }
+  - { offset: 0x77249, size: 0x8, addend: 0x0, symName: '-[StampImageView concludeDragOperation:]', symObjAddr: 0x67, symBinAddr: 0x100002962, symSize: 0x85 }
+  - { offset: 0x77324, size: 0x8, addend: 0x0, symName: '-[StampImageView draggingUpdated:]', symObjAddr: 0xEC, symBinAddr: 0x1000029E7, symSize: 0x6 }
+  - { offset: 0x7735F, size: 0x8, addend: 0x0, symName: '-[StampImageView draggingEnded:]', symObjAddr: 0xF2, symBinAddr: 0x1000029ED, symSize: 0x6 }
+  - { offset: 0x7739A, size: 0x8, addend: 0x0, symName: '-[StampImageView draggingExited:]', symObjAddr: 0xF8, symBinAddr: 0x1000029F3, symSize: 0x6 }
+  - { offset: 0x773D5, size: 0x8, addend: 0x0, symName: '-[StampImageView setTempPdfpath:]', symObjAddr: 0xFE, symBinAddr: 0x1000029F9, symSize: 0x4F }
+  - { offset: 0x77438, size: 0x8, addend: 0x0, symName: '-[StampImageView mouseDown:]', symObjAddr: 0x14D, symBinAddr: 0x100002A48, symSize: 0x204 }
+  - { offset: 0x77714, size: 0x8, addend: 0x0, symName: _getUInt16WithByteIndex, symObjAddr: 0x0, symBinAddr: 0x100002C4C, symSize: 0x2D }
+  - { offset: 0x7772E, size: 0x8, addend: 0x0, symName: _cmapCache, symObjAddr: 0x43D8, symBinAddr: 0x1000074B8, symSize: 0x0 }
+  - { offset: 0x77827, size: 0x8, addend: 0x0, symName: _getUInt16WithByteIndex, symObjAddr: 0x0, symBinAddr: 0x100002C4C, symSize: 0x2D }
+  - { offset: 0x778D9, size: 0x8, addend: 0x0, symName: _getUInt32WithByteIndex, symObjAddr: 0x2D, symBinAddr: 0x100002C79, symSize: 0x28 }
+  - { offset: 0x77956, size: 0x8, addend: 0x0, symName: _getUInt16, symObjAddr: 0x55, symBinAddr: 0x100002CA1, symSize: 0x30 }
+  - { offset: 0x779CB, size: 0x8, addend: 0x0, symName: _CMFontGetGlyphsForUnichars, symObjAddr: 0x85, symBinAddr: 0x100002CD1, symSize: 0x50 }
+  - { offset: 0x77A7E, size: 0x8, addend: 0x0, symName: _CMGetCMapForFont, symObjAddr: 0xD5, symBinAddr: 0x100002D21, symSize: 0x1A7 }
+  - { offset: 0x77DFA, size: 0x8, addend: 0x0, symName: _CMCMapGetGlyphIndexForUnichar, symObjAddr: 0x27C, symBinAddr: 0x100002EC8, symSize: 0x146 }
+  - { offset: 0x781BC, size: 0x8, addend: 0x0, symName: _CMCMapCreate, symObjAddr: 0x3C2, symBinAddr: 0x10000300E, symSize: 0x212 }
+  - { offset: 0x786FE, size: 0x8, addend: 0x0, symName: _CMCMapRelease, symObjAddr: 0x5D4, symBinAddr: 0x100003220, symSize: 0x44 }
+...
